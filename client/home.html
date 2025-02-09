@@ -3,11 +3,12 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
 </head>
-<body>
+<body onload="checkAuth()">
     <div class="container">
         <h2>Welcome to the Attendance System</h2>
-        <button>Logout</button>
+        <button onclick="logout()">Logout</button>
     </div>
 </body>
 </html>
